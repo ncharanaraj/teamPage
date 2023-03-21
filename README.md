@@ -1,6 +1,6 @@
-# 404 NOT FOUND PAGE 
+# teamPage
 
-This 404 Not Found was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The challenge was to build an application to complete the given user stories.
+teamPage created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The challenge was to build an application to complete the given user stories.
 
 ## Overview
 
