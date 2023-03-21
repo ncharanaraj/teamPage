@@ -3,6 +3,7 @@
 teamPage created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The challenge was to build an application to complete the given user stories.
 
 ## Overview
+![Screenshot (2)](https://user-images.githubusercontent.com/43924299/226671772-5283d4aa-1726-4f0e-bdc4-8899953c1fba.png)
 
 
 
