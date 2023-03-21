@@ -1,5 +1,128 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=PT+Sans&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
+  color: #000;
   font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+}
+
+h4 {
+  margin: 0.7rem 0;
+}
+
+.team-header {
+  margin: 1.5rem 0 3rem;
+}
+
+.team-description {
+  margin-top: 2rem;
+}
+
+.img-container {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.img-card:nth-child(2),
+.img-card:nth-child(4),
+.img-card:nth-child(6) {
+  padding-top: 5rem;
+}
+
+.img-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.img-card small {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.img-card-details {
+  display: flex;
+  width: 100%;
+}
+
+.img-card-details img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-card-details p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  color: #a9a9a9;
+  margin-top: 10rem;
+  line-height: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .team-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0 5rem;
+  }
+
+  .team-description {
+    width: 50%;
+    font-size: 18px;
+    margin-top: 0;
+  }
+
+  .img-container {
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 4rem;
+  }
+
+  .img-card:nth-child(5) {
+    padding-top: 10rem;
+  }
+
+  .img-card small {
+    font-size: 18px;
+  }
+
+  .img-card-details p {
+    font-size: 12px;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 1040px) {
+  main {
+    max-width: 920px;
+    margin: auto;
+  }
 }
